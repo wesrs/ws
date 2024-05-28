@@ -1,0 +1,138 @@
+/* styles.css */
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Apply the gradient background */
+.gradient {
+  background: linear-gradient(90deg, #1e1c96 0%, #a0cdff 100%);
+}
+
+/* Style the navigation bar */
+#header {
+  background-color: #2a2a31;
+  color: white;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 30;
+}
+
+#nav-toggle {
+  display: none;
+}
+
+#nav-content {
+  background-color: white;
+  color: black;
+}
+
+#nav-content ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+  align-items: center;
+}
+
+#nav-content li {
+  margin-right: 1rem;
+}
+
+#nav-content a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+}
+
+#nav-content a:hover {
+  color: #333;
+  text-decoration: underline;
+}
+
+/* Style the hero section */
+.pt-24 {
+  padding-top: 6rem;
+}
+
+.container {
+  max-width: 100%;
+  padding: 0.75rem;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.tracking-loose {
+  letter-spacing: 0.1em;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.text-5xl {
+  font-size: 3rem;
+}
+
+.leading-tight {
+  line-height: 1.25;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.md:w-2/5 {
+  width: 40%;
+}
+
+.md:w-3/5 {
+  width: 60%;
+}
+
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.w-4/5 {
+  width: 80%;
+}
+
+.z-50 {
+  z-index: 50;
+}
+
+/* Add any additional CSS rules here as needed */
+<link rel="stylesheet" href="index.html" />
